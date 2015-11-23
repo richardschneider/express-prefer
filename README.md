@@ -1,4 +1,4 @@
-# express-prefer
+# express-prefer [![Build Status](https://travis-ci.org/richardschneider/express-prefer.svg)](https://travis-ci.org/richardschneider/express-prefer)
 
 > [RFC 7240](http://www.rfc-base.org/txt/rfc-7240.txt) defines an HTTP header field that can be used by a client to request that certain behaviors be employed by a server while processing a request.
 
