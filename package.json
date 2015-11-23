@@ -1,0 +1,29 @@
+{
+  "name": "workspace",
+  "version": "0.1.0",
+  "description": "Prefer header for HTTP (RFC 7240)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardschneider/express-prefer.git"
+  },
+  "keywords": [
+    "prefer",
+    "http",
+    "header",
+    "rfc7240"
+  ],
+  "author": "Richard Schneider <makaretu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardschneider/express-prefer/issues"
+  },
+  "homepage": "https://github.com/richardschneider/express-prefer#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
+}
