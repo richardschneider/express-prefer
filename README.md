@@ -14,7 +14,7 @@ Given the following Request
 ````
 PATCH /my-document HTTP/1.1
 Host: example.org
-Content-Type: application/example-patch
+Content-Type: application/json-patch+json
 Prefer: return=representation
 
 [{"op": "add", "path": "/a", "value": 1}]
