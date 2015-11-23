@@ -4,9 +4,7 @@
 
 This package parses the HTTP Request and makes the `prefer` headers a keyed property of `req.prefer`.
 
-## Usage
-
-### Getting started
+## Getting started [![npm version](https://badge.fury.io/js/express-prefer.svg)](https://badge.fury.io/js/express-prefe)
 
     $ npm install express-prefer --save
     
@@ -16,7 +14,8 @@ then add to your `server.js` file
 
 and [*That's all folks!*](https://www.youtube.com/watch?v=gBzJGckMYO4)
 
-### Example
+## Usage
+
 Given the following Request
 ````
 PATCH /my-document HTTP/1.1
@@ -37,3 +36,7 @@ app.post('/:doc', (req,res,next) => {
         res.status(204).end();
 })
 ````
+# License
+The MIT license
+
+Copyright © 2015 Richard Schneider (makaretu@gmail.com)
