@@ -6,6 +6,10 @@ This package parses the HTTP Request and makes the `prefer` headers a keyed prop
 
 ## Usage
 
+````
+app.use(require('express-prefer'))
+````
+
 Given the following Request
 ````
 PATCH /my-document HTTP/1.1
@@ -25,4 +29,4 @@ app.post('/:doc', (req,res,next) => {
     else
         res.status(204).end();
 })
-})
+````
