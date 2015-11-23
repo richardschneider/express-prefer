@@ -10,11 +10,11 @@ This package parses the HTTP Request and makes the `prefer` headers a keyed prop
 
     $ npm install express-prefer --save
     
-then add your `server.js` file
+then add to your `server.js` file
 
     app.use(require('express-prefer'))
 
-and [*That's all folks!*](https://www.google.co.nz/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&cad=rja&uact=8&ved=0ahUKEwi96rrosqbJAhXC26YKHX-yCgAQtwIIKDAE&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgBzJGckMYO4&usg=AFQjCNG6hEmET-4vS8cF5Gekafw-eIU_0Q&sig2=PgFDLI_70MGiSkikOgYPQQ&bvm=bv.108194040,d.dGY)
+and [*That's all folks!*](https://www.youtube.com/watch?v=gBzJGckMYO4)
 
 ### Example
 Given the following Request
