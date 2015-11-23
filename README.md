@@ -9,15 +9,15 @@ This package parses the HTTP Request and makes the `prefer` headers a keyed prop
     $ npm install express-prefer --save
     
 then add to your `server.js` file
-
-    app.use(require('express-prefer'))
-
+````javascript
+app.use(require('express-prefer'))
+````
 and [*That's all folks!*](https://www.youtube.com/watch?v=gBzJGckMYO4)
 
 ## Usage
 
 Given the following Request
-````
+````http
 PATCH /my-document HTTP/1.1
 Host: example.org
 Content-Type: application/json-patch+json
@@ -26,7 +26,7 @@ Prefer: return=representation
 [{"op": "add", "path": "/a", "value": 1}]
 ````
 then
-````
+````javascript
 app.patch('/:doc', (req,res,next) => {
     // Apply the patch ...
     
