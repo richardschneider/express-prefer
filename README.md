@@ -27,9 +27,10 @@ Prefer: return=representation
 ````
 then
 ````
-app.post('/:doc', (req,res,next) => {
+app.patch('/:doc', (req,res,next) => {
     // Apply the patch ...
     
+    // What should we return?
     if (req.prefer.return == 'reprsentation')
         res.status(200).send(doc).end();
     else
