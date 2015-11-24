@@ -4,3 +4,8 @@ node_js:
   - stable
 before_script:
   - export NODE_ENV=CI
+script:
+  - npm test
+  - pkg=$(npm pack)
+  - npm install -g $pkg
+ 
