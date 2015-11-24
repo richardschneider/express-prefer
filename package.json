@@ -23,7 +23,12 @@
   },
   "homepage": "https://github.com/richardschneider/express-prefer#readme",
   "devDependencies": {
+    "express": "^4.13.3",
     "mocha": "^2.3.4",
-    "should": "^7.1.1"
+    "should": "^7.1.1",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "parse-http-header": "^1.0.0"
   }
 }
