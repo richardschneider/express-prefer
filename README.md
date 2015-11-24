@@ -31,7 +31,7 @@ app.patch('/:doc', (req,res,next) => {
     // Apply the patch ...
     
     // What should we return?
-    if (req.prefer.return == 'reprsentation')
+    if (req.prefer.return == 'representation')
         res.status(200).send(doc).end();
     else
         res.status(204).end();
